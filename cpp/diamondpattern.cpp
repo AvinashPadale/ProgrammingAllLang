@@ -14,7 +14,7 @@ void printDiamond(int n)
 
         // Print i+1 stars
         for (int j = 0; j <= i; j++)
-            cout << "* ";
+            cout << "*";
 
         cout << endl;
         space--;
@@ -30,8 +30,8 @@ void printDiamond(int n)
 
         // Print i stars
         for (int j = 0; j < i; j++)
-        
-            cout << "* ";
+
+            cout << "*";
 
         cout << endl;
         space++;

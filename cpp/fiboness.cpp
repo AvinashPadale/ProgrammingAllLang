@@ -14,9 +14,9 @@ int fib(int n)
         ans = first + second;
         first = second;
         second = ans;
-        cout << ans;
+        cout << ans << " ";
     }
-    return 0;
+    return ans;
 }
 
 int main()

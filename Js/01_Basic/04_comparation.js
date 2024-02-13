@@ -23,3 +23,4 @@
 // === //its check value aswell datatype
 
 console.log(4 === '4'); //false because one is string other is int
+

@@ -10,7 +10,7 @@ Primitive :
 Reference (Non primitive):
 3 type : array, objects, functions
 */
-
+/*
 const score = 100  // number
 const scoreValue = 100.3 // number
 const isLogged = false  // boolean
@@ -31,4 +31,25 @@ const myFun = function(){  //function
 
 console.log(typeof heros);
 //const score: number = 100 typeScript
+*/
 
+/* ------------------ Memory ---------------- */
+//stack (primitive) , heap (non-primitive)
+/* ---------- Value vs Reference Type -------- */
+//value types are stored on stack memory
+//reference types are stored on heap memory
+/*
+let myName = "Avinash"
+let yourName = myName
+yourName = "padale"
+console.log(yourName, myName);
+*/
+/*
+let user1 = {
+    email : "user1@gmail.com",
+    upi : "user1@ybl"
+}
+let user2 = user1
+user2.email = "User2@gmail.com"
+console.log(user1.email, user2.email);
+*/

@@ -26,7 +26,5 @@ console.log(string3.trim())
 
 const url = "https://avinash.com/javascript%20is%20awesome/"
 const string1 = url.replaceAll("%20","-")
-
 console.log(string1.split('-'));
-
 */

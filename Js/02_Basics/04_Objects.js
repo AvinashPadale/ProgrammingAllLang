@@ -29,23 +29,52 @@ const obj2 = {3:"A",4:"B"}
 // console.log(obj5);
 
 
-const users = [
-{
-    id : 1,
-    email : "a@gmail.com"
-},
-{
-    id : 2,
-    email : "b@gmail.com"
-},
-{
-},
+// const users = [
+// {
+//     id : 1,
+//     email : "a@gmail.com"
+// },
+// {
+//     id : 2,
+//     email : "b@gmail.com"
+// },
+// {
+// },
+// ]
+
+
+// console.log(tout); //{ id: 'A101', name: 'Avinash', age: 25 }
+// console.log(Object.keys(tout));//[ 'id', 'name', 'age' ]
+// console.log(Object.values(tout));//[ 'A101', 'Avinash', 25 ]
+// console.log(Object.entries(tout));// [ [ 'id', 'A101' ], [ 'name', 'Avinash' ], [ 'age', 25 ] ]
+
+// console.log(tout.hasOwnProperty('age')); // true
+
+
+
+
+const course = {
+    courseName : "Js",
+    price : "900",
+    courseInstructor : "Hitesh"
+
+}
+
+// course.courseInstructor
+// destructure of onject
+const {courseInstructor : instructor} = course
+console.log(instructor)
+
+
+//api json
+// {
+//     "Name" : "Avinash",
+//     "course" : "Js"
+// }
+
+
+[
+    {},
+    {},
+    {}
 ]
-
-
-console.log(tout); //{ id: 'A101', name: 'Avinash', age: 25 }
-console.log(Object.keys(tout));//[ 'id', 'name', 'age' ]
-console.log(Object.values(tout));//[ 'A101', 'Avinash', 25 ]
-console.log(Object.entries(tout));// [ [ 'id', 'A101' ], [ 'name', 'Avinash' ], [ 'age', 25 ] ]
-
-console.log(tout.hasOwnProperty('age')); // true

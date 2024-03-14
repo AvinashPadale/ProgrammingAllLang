@@ -37,7 +37,6 @@ if (true){
 // console.log(username);
 
 //------------------------ interesting -------------------------------//
-addone(5)
 console.log(addone(5));
 function addone(num){ // basic function
     return num + 1
